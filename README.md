@@ -8,6 +8,8 @@ As per the requirement listed these fields are optional - state, stateCode, coun
 
 The api can send back the response in plain text instead of xml or json if ?stringFormat=true is passed in the query string. From the example in requirement it seemed the address needs to be in plain text but in expected output it was mentioned the address to be in xml, json etc. To solve the ambiguity the api is designed to handle both cases.
 
+The logic is written in AddressController.cs under Controllers.
+
 By default the address in response is sent in application/json -
 
 Execute from postman : GET - http://localhost:5795/randomizer/address
