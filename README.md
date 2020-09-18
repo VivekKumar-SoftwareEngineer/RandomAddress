@@ -80,4 +80,4 @@ Test Cases -
 
 Known issue -
 
-The api is currently not hiding the fields state, stateCode, country if they have null when the response is sent in xml or json but this is handled for plaintext.
+For xml response, the api is currently not hiding the fields state, stateCode, country if they have null but this is handled for json & plaintext.
